@@ -11,9 +11,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +24,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -39,4 +42,23 @@
 
 .read-the-docs {
   color: #888;
+}
+
+
+.one {
+  width: 500px;
+  height: 500px;
+  background-color: silver;
+}
+
+.two {
+  width: 300px;
+  height: 300px;
+  background-color: bisque;
+}
+
+.three {
+  width: 200px;
+  height: 200px;
+  background-color: tomato;
 }
